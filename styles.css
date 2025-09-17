@@ -115,6 +115,30 @@ header {
 }
 
 
+/* Quote Section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container {
+    width: 850px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    weight: 300;
+}
+
+.quote-author {
+    text-align:end;
+}
+
+
 
 
 
