@@ -185,7 +185,17 @@ header {
 }
 
 
+/* Footer */
 
+footer {
+    background-color:#1F2937;
+}
+
+.footer-text {
+    padding: 35px;
+    text-align: center;
+    color: #E5E7EB;
+}
 
 
 
