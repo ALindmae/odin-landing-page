@@ -1,0 +1,36 @@
+/* Header  */
+
+
+header {
+    background-color:#1F2937;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    color: lightgray;
+}
+
+
+
+
+

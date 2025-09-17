@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">Header Logo</div>
-        <nav>
-            <ul class="nav-list">
-                <li><a>header link one</a></li>
-                <li><a>header link two</a></li>
-                <li><a>header link three</a></li>
-            </ul>
-        </nav>
+        <div class="container header-container">          
+            <div class="logo">Header Logo</div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a>header link one</a></li>
+                    <li><a>header link two</a></li>
+                    <li><a>header link three</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
     </header>
     <section class="hero">
-        <div class="hero-text">
-            <div class="hero-title">This website is awesome</div>
-            <div class="hero-description">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+        <div class="container hero-container">
+            <div class="hero-text">
+                <div class="hero-title">This website is awesome</div>
+                <div class="hero-description">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+                </div>
+                <button class="hero-button">Sign up</button>
             </div>
-            <button class="hero-button">Sign up</button>
+            <img class="hero-image" src="./images/hero-image.jpg" alt="Text on a wall that reads 'Astonishing'">
         </div>
-        <img class="hero-image" src="./images/hero-image.jpg" alt="Text on a wall that reads 'Astonishing'">
     </section>
     <section class="info-section">
         <div class="info-title">Some random information.</div>
-        <div class="cards-container">
+        <div class=" container info-container">
             <div class="info-card">
                 <img class="card-image" src="./images/god-zeus.png" alt="god zeus" >
                 <div class="card-text">Icon made by Freepik from www.flaticon.com</div>
@@ -47,13 +53,13 @@
         </div>
     </section>
     <section class="quote-section">
-        <div class="quote-container">
+        <div class=" container quote-container">
             <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
             <div class="quote-author">-Thor, God of Thunder</div>
         </div>
     </section>
     <section class="CTA-section">
-        <div class="CTA-container">
+        <div class="container CTA-container">
             <div class="CTA-text">
                 <div class="CTA-title">Call to action! It's time!</div>
                 <div class="CTA-description">Sign up for our product by clicking that button right over there!</div>
